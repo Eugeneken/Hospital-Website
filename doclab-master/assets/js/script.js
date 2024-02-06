@@ -89,6 +89,11 @@ const revealElementOnScroll = function () {
   }
 }
 
+function scrollToSection() {
+  // Using JavaScript to scroll to the target section
+  document.getElementById('targetSection').scrollIntoView({ behavior: 'smooth' });
+}
+
 window.addEventListener("scroll", revealElementOnScroll);
 
 window.addEventListener("load", revealElementOnScroll);
