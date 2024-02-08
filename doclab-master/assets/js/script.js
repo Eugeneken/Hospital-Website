@@ -97,3 +97,12 @@ function scrollToSection() {
 window.addEventListener("scroll", revealElementOnScroll);
 
 window.addEventListener("load", revealElementOnScroll);
+
+
+
+window.addEventListener()
+revealElements
+if ( CredentialsContainer) {
+  FileReader
+}
+revealElementOnScroll
