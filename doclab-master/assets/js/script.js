@@ -106,3 +106,42 @@ if ( CredentialsContainer) {
   FileReader
 }
 revealElementOnScroll
+toggleNav(
+  "nav-toggler",
+  "navbar-toggler",
+  "show"
+);
+decodeURIComponent(
+  window.location.search.substr(1).split("&")[0]
+);
+cancelIdleCallback
+// Get the modal
+var modal = document.getElementById("myModal");
+// Get the <span> element that closes the modal and hide it
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none"; 
+    }
+  
+    }
+activeElementOnScroll(document.querySelector(".modal"))
+
+function activeElementOnScroll(el) {
+  const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        // Each entry describes an intersection change for one observed item (in this case img)
+        // If the ratio shows that the target is between 80% and 10
+requestIdleCallback
+scrollY
+URLSearchParams
+importScripts
+parseFloat
+addEventListener
+while
