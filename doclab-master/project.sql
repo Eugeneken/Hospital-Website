@@ -35,3 +35,8 @@ FROM release_year
 HAVING plays
 
 
+SELECT *
+FROM game_sales
+INNER JOIN release_year ON game_sales.game=release_year.game
+WHERE release_year.Year BETWEEN 2008 AND 20
+INNER JOIN  publishers ON game_sales.publisher=publishers.publisher
