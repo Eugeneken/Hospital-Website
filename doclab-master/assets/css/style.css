@@ -1143,13 +1143,3 @@ body.nav-active { overflow: hidden; }
   .contact-item { margin-block-start: 0; }
 
 }
-
-love{
-  height: 12px;
-  width: auto;
-  top: 15px;
-  background-origin: padding-box;
-  font: 1em sans-serif;
-  hanging-punctuation: 14px;
-  
-}
