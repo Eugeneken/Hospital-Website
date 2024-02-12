@@ -952,7 +952,7 @@ body.nav-active { overflow: hidden; }
   .contact-list {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: right;
     gap: 24px;
   }
 
