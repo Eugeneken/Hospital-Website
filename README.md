@@ -11,13 +11,18 @@ Social Media Accounts
     *Twitter
     *LinkedIn
 Services offered
-    *
-    *
-    *
-    *
+    * General Checkup
+    * Othopedic services
+    *  Cardiology Services 
+    *  Dental Care
+    * Eye Care
+    Doctors at our Hospital
+    
 Hospital Logo
 Hospital Vision
 Hospital Missions
 Doctors and Staff 
 Clinical Trials
 Awards & Accolades
+Newsletter Signup
+
