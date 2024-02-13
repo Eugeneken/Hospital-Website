@@ -1143,3 +1143,11 @@ body.nav-active { overflow: hidden; }
   .contact-item { margin-block-start: 0; }
 
 }
+  @media (min-width: 960px) and (max-width: 1279px) {
+    /* Make the logo span both columns for smaller screens */
+    .footer-brand > :first-child { order: -1; grid-column: 1 / 3; }
+
+    .contact-list { flex-direction: column; }
+    .contact-list::after { top: 50%; left: 0; transform: translateY(-50%); }
+  }
+  
