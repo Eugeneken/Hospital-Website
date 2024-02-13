@@ -1150,4 +1150,14 @@ body.nav-active { overflow: hidden; }
     .contact-list { flex-direction: column; }
     .contact-list::after { top: 50%; left: 0; transform: translateY(-50%); }
   }
-  
+  .card-icon{
+    font-family: 'Material Design Icons';
+    color:#fff !important;
+    line-height: normal;
+    fill:currentColor;
+    display:inline-block;
+    text-align:center;
+    vertical-align:middle;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+  }
