@@ -22,5 +22,5 @@ Services offered
 Doctors at our Hospital
     
 Hospital Logo (Done)
-Hospital Vision - 
-Hospital Missions - 
+Hospital Vision - To be the beacon of health and healing in our community, providing exceptional, compassionate, and accessible healthcare to every individual we serve.
+Hospital Missions -  To provide exceptional, comprehensive healthcare services to our community with compassion, integrity, and innovation.
