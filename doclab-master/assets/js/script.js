@@ -100,20 +100,3 @@ window.addEventListener("load", revealElementOnScroll);
 
 
 
-window.addEventListener("DOMContentLoaded", function(){
-  
-  /**
-   * ACCORDION
-   */
-   const accordionItems = document.getElementsByClassName("accordion__item");
-
-   for(let item of accordionItems){
-     item.addEventListener("click", function(){
-       const nextItem = item.nextElementSibling;
-       
-       /* Toggle between adding and removing the "show" class, which will hide and show the panel */
-       /* Add/Remove Class on Click */
-       item.classList.toggle("accordion__item--active");
-       nextItem.classList.toggle("accordion__panel--active");
-     })
-   }
