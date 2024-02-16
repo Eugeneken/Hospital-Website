@@ -130,3 +130,4 @@ function activeElementOnScroll(){
           break ;
 }
 sections[last_visible_section].classList.add('active') ;
+}
