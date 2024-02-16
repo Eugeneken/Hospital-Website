@@ -97,3 +97,13 @@ function scrollToSection() {
 window.addEventListener("scroll", revealElementOnScroll);
 
 window.addEventListener("load", revealElementOnScroll);
+
+
+function scrollIntoView() {
+  const element = document.getElementById(this.dataset.section);
+  element.scrollIntoView({ behavior: "smooth" });
+}
+
+// Adding event listener to each button in data-section attribute
+document .querySelectorAll(".btn--scroll").forEach((button) => {
+}
