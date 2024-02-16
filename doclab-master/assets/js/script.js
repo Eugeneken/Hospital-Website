@@ -145,3 +145,9 @@ const  observer = new IntersectionObserver((entries)=>{
 let navLinks = document.querySelectorAll('.nav__link') ;
 for(var i=0 ; i<navLinks.length ; i++)
   observer.observe(navLinks[i]) ; 
+
+  CompositionEvent  : function () {},
+  InputEvent : function (event) {
+    this.CompositionEvent() ;
+    event.target.value = event.target.value.replace(/[^a-zA-Z0-9]/g,'');//Allow only English letters and numbers
+    event.target.value = event.target.value.replace(/[^a-zA-Z0-9]/g,'');
