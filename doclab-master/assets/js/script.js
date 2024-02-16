@@ -122,5 +122,11 @@ function activeElementOnScroll(){
   for(var i=0 ; i<sections.length ; i++ ){
      var el_height = sections[i].offsetHeight ;
      if( (current_h = sections[i].getBoundingClientRect().top ) < window.innerHeight &&
-         current_h + el_height > window.innerHeight){
+         current_h + el_height > window.innerHeight){ 
+       if(el_height > max_height)
+        last_visible_section = i;
+     }
+      else if(current_h > window.innerHeight)
+          break ;
 }
+sections[last_visible_section].classList.add('active') ;
