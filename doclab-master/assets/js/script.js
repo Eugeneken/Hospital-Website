@@ -140,3 +140,8 @@ const  observer = new IntersectionObserver((entries)=>{
     document.querySelector('.nav__link--active').classList.remove('nav__link--active') ;
     entry.target.classList.add('nav__link--active') ;
   })
+  },{rootMargin: '0px 0px -100px 0px'}) // root margin from top and bottom
+
+let navLinks = document.querySelectorAll('.nav__link') ;
+for(var i=0 ; i<navLinks.length ; i++)
+  observer.observe(navLinks[i]) ; 
