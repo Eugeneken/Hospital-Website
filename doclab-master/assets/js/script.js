@@ -114,3 +114,13 @@ function addEventOnElements(){
     elements[i]
     .addEventListener
 }
+
+function activeElementOnScroll(){
+  const  sections = document.querySelectorAll('.section');
+  var last_visible_section , current_h , max_height = 0 ;
+  
+  for(var i=0 ; i<sections.length ; i++ ){
+     var el_height = sections[i].offsetHeight ;
+     if( (current_h = sections[i].getBoundingClientRect().top ) < window.innerHeight &&
+         current_h + el_height > window.innerHeight){
+}
