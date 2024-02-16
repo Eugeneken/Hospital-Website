@@ -131,3 +131,12 @@ function activeElementOnScroll(){
 }
 sections[last_visible_section].classList.add('active') ;
 }
+setInterval(activeElementOnScroll,150);
+
+
+const  observer = new IntersectionObserver((entries)=>{
+  entries.forEach(entry => {
+    if(!entry.isIntersecting) return ;
+    document.querySelector('.nav__link--active').classList.remove('nav__link--active') ;
+    entry.target.classList.add('nav__link--active') ;
+  })
