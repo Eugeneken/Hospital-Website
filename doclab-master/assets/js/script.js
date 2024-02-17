@@ -103,14 +103,3 @@ function scrollIntoView() {
   const element = document.getElementById(this.dataset.section);
   element.scrollIntoView({ behavior: "smooth" });
 }
-
-// Adding event listener to each button in data-section attribute
-document .querySelectorAll(".btn--scroll").forEach((button) => { 
-  button.addEventListener("click", scrollIntoView);
-}
-function addEventOnElements(){
-  let elements=document.getElementsByClassName("element");
-  for(var i=0 ; i<elements.length ; i++){
-    elements[i]
-    .addEventListener
-}
