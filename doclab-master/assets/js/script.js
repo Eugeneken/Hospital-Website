@@ -98,11 +98,5 @@ window.addEventListener("scroll", revealElementOnScroll);
 
 window.addEventListener("load", revealElementOnScroll);
 
-webkitURL .createObjectURL(document.createElementNS("http://www.w3.org/2006/webapi/xhr/XMLHttpRequest").prototype.send());
-// Add event listener for button click
-document.getElementById('buttonID')
-       .addEventListener("click", scrollToSection);
-
-
 
 
