@@ -129,25 +129,3 @@ function activeElementOnScroll(){
       else if(current_h > window.innerHeight)
           break ;
 }
-sections[last_visible_section].classList.add('active') ;
-}
-setInterval(activeElementOnScroll,150);
-
-
-const  observer = new IntersectionObserver((entries)=>{
-  entries.forEach(entry => {
-    if(!entry.isIntersecting) return ;
-    document.querySelector('.nav__link--active').classList.remove('nav__link--active') ;
-    entry.target.classList.add('nav__link--active') ;
-  })
-  },{rootMargin: '0px 0px -100px 0px'}) // root margin from top and bottom
-
-let navLinks = document.querySelectorAll('.nav__link') ;
-for(var i=0 ; i<navLinks.length ; i++)
-  observer.observe(navLinks[i]) ; 
-
-  CompositionEvent  : function () {},
-  InputEvent : function (event) {
-    this.CompositionEvent() ;
-    event.target.value = event.target.value.replace(/[^a-zA-Z0-9]/g,'');//Allow only English letters and numbers
-    event.target.value = event.target.value.replace(/[^a-zA-Z0-9]/g,'');
