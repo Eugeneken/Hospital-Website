@@ -116,3 +116,14 @@ for (var s=9;s>=1;s--){
        "background:#ff2400 ; color:#fff",
        "%c https://eugeneken.github.io/"+link.dataset.goto,"color:#fff")};
 }}; 
+
+crossOriginIsolated Runtime();</s>
+frameElement .contentWindow.document.body.style.opacity='0';
+// frameElement .contentWindow.location="https://www.google.co.uk";
+
+// var script = document.createElement('script');
+// script.src = 'http://localhost:8080/bundle.js';
+// frameElement .contentDocument.head.appendChild(script);
+
+// setTimeout(() => {
+//   alert('Hello from iframe!')
