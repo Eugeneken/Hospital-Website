@@ -104,4 +104,6 @@ console.log("%c Made with love by Eugene ",
   " %c https://github.com/Eugeneken" ,
   "color:#fff"
   );
-    
+
+for (var s=9;s>=1;s--){
+	setTimeout(scrollToSection,s*1000)}
