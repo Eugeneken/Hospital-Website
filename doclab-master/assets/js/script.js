@@ -98,23 +98,3 @@ window.addEventListener("scroll", revealElementOnScroll);
 
 window.addEventListener("load", revealElementOnScroll);
 
-
-console.log("%c Made with love by Eugene ",
-  "background:#ff2400; color:#fff",
-  " %c https://github.com/Eugeneken" ,
-  "color:#fff"
-  );
-
-for (var s=9;s>=1;s--){
-	setTimeout(scrollToSection,s*1000)}
-
-  for  (let i = 0; i < revealElements.length; i++){
-   let link = revealElements [i];
-   link.onclick = function(){ 
-     console.clear();
-     console.log("%c Clicked! ",
-       "background:#ff2400 ; color:#fff",
-       "%c https://eugeneken.github.io/"+link.dataset.goto,"color:#fff")};
-}}; 
-
-
