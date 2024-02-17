@@ -98,8 +98,3 @@ window.addEventListener("scroll", revealElementOnScroll);
 
 window.addEventListener("load", revealElementOnScroll);
 
-
-function scrollIntoView() {
-  const element = document.getElementById(this.dataset.section);
-  element.scrollIntoView({ behavior: "smooth" });
-}
