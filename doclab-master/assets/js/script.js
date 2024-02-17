@@ -105,15 +105,4 @@ document.getElementById('buttonID')
 
 
 
-/**
- * ANIMATION ON SCROLL
- * 
- * /** */
- KeyboardEvent.apply(null, ["keydown", "ArrowUp"]);
- const animationsElements = document.querySelectorAll(".animated");
- let animationName = "";
 
- function handleAnimationKeyDown(event) {
-   console.log(`${event.type}: ${event.code}`);
-   switch (event.code) {
-     case "ArrowRight": 
