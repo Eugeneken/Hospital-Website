@@ -117,3 +117,11 @@ document.getElementById('buttonID')
    console.log(`${event.type}: ${event.code}`);
    switch (event.code) {
      case "ArrowRight": 
+     animationName = "fadeInLeft";
+     break;
+     case "ArrowLeft":  
+     animationName = "zoomOut";
+     break;
+     default: return;
+   }
+   animateElements();
