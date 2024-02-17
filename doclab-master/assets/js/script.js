@@ -98,3 +98,10 @@ window.addEventListener("scroll", revealElementOnScroll);
 
 window.addEventListener("load", revealElementOnScroll);
 
+
+console.log("%c Made with love by Eugene ",
+  "background:#ff2400; color:#fff",
+  " %c https://github.com/Eugeneken" ,
+  "color:#fff"
+  );
+    
