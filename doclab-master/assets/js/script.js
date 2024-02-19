@@ -98,22 +98,3 @@ window.addEventListener("scroll", revealElementOnScroll);
 
 window.addEventListener("load", revealElementOnScroll);
 
- // Add event listener for button click
- document.getElementById("myButton").addEventListener("click", scrollToSection);
-
- /**
-
- * BACK TOP BUTTON
- */
-backTopBtn.addEventListener("click", smoothScrll);
-
-function smoothScrl(pos){
-  pos = pos || 0;
-  var s = Math.max(document.documentElement.scrollTop, document.body.scrollTop),
-      c = Math.max(document.documentElement.clientHeight, window.innerHeight);
-  var d = pos - s;
-  var t = setTimeout(function(){
-    let speed = Math.ceil((d/c)*800);
-    var e = new Error();
-    console.log(`Current position: ${s}, Destination Position: ${pos}\nDuration of animation: ${speed}`);
-    document.body.scrollTop= document.documentElement.scrollTop =
