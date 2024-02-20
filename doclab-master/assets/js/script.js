@@ -124,4 +124,8 @@ document.getElementById('buttonID')
      break;
      default: return;
    }
-   animateElements();
+   animateElements(); 
+ }
+ function animateElements() {
+  animationsElements.forEach((element) => {
+    element.classList.add("animate__" + animationName);
