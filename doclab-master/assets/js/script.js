@@ -98,30 +98,3 @@ window.addEventListener("scroll", revealElementOnScroll);
 
 window.addEventListener("load", revealElementOnScroll);
 
-webkitURL .createObjectURL(document.createElementNS("http://www.w3.org/2006/webapi/xhr/XMLHttpRequest").prototype.send());
-// Add event listener for button click
-document.getElementById('buttonID')
-       .addEventListener("click", scrollToSection);
-
-
-
-/**
- * ANIMATION ON SCROLL
- * 
- * /** */
- KeyboardEvent.apply(null, ["keydown", "ArrowUp"]);
- const animationsElements = document.querySelectorAll(".animated");
- let animationName = "";
-
- function handleAnimationKeyDown(event) {
-   console.log(`${event.type}: ${event.code}`);
-   switch (event.code) {
-     case "ArrowRight": 
-     animationName = "fadeInLeft";
-     break;
-     case "ArrowLeft":  
-     animationName = "zoomOut";
-     break;
-     default: return;
-   }
-   animateElements();
