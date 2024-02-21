@@ -22,9 +22,9 @@
 
   --rich-black-fogra-29: hsl(222, 44%, 8%);
   --middle-blue-green_40: hsla(174, 64%, 71%, 0.4);
-  --midnight-green: hsl(240, 100%, 20%);
+  --midnight-green: hwb(0 84% 16%);
   --midnight-green_a25: hsla(186, 100%, 19%, 0.25);
-  --independece: hsl(236, 14%, 39%);
+  --independece: hsl(240, 10%, 79%);
   --verdigris: hsl(0, 100%, 35%);
   --ming: hsl(0, 72%, 24%);
   --space-cadet: hsla(226, 45%, 24%);
