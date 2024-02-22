@@ -11,7 +11,7 @@
 
 
 /*-----------------------------------*\
-  #CUSTOM PROPERTY
+  #CUSTOM PROPERTY 
 \*-----------------------------------*/
 
 :root {
@@ -22,7 +22,7 @@
 
   --rich-black-fogra-29: hsl(222, 44%, 8%);
   --middle-blue-green_40: hsla(174, 64%, 71%, 0.4);
-  --midnight-green: hwb(0 84% 16%);
+  --midnight-green: hwb(198 12% 44%);
   --midnight-green_a25: hsla(186, 100%, 19%, 0.25);
   --independece: hsl(240, 10%, 79%);
   --verdigris: hsl(0, 100%, 35%);
