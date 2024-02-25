@@ -20,13 +20,13 @@
    * colors
    */
 
-  --rich-black-fogra-29: hsl(222, 44%, 8%);
+  --rich-black-fogra-29: hwb(191 18% 17%);
   --middle-blue-green_40: hsla(174, 64%, 71%, 0.4);
   --midnight-green: hwb(198 12% 44%);
   --midnight-green_a25: hsla(186, 100%, 19%, 0.25);
   --independece: hsl(240, 10%, 79%);
   --verdigris: hsl(0, 100%, 35%);
-  --ming: hsl(0, 72%, 24%);
+  --ming: hsl(196, 72%, 24%);
   --space-cadet: hsla(226, 45%, 24%);
   --eerie-black: hsl(0, 0%, 13%);
   --alice-blue: hsl(187, 25%, 94%);
