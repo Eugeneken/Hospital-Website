@@ -751,4 +751,20 @@
 
 </html>
 
-
+<p>Today is monday .</p>
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "myDB";
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+ die("Connection failed: " . $conn->connect_error);
+}
+$sql = "SELECT * FROM myTable WHERE day='monday'";
+$result = $conn->query($sql);
+echo "<table><tr><th>ID</th><th>Day</th><th>Event</th></tr>";
+if ($result->num_rows > 0) {
+ // output data of each row
