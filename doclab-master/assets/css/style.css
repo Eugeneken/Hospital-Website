@@ -770,8 +770,6 @@ body.nav-active { overflow: hidden; }
   border: 1px solid var(--white_a20);
   border-radius: var(--radius-4);
   padding: 8px 20px;
-  float: right;
-  margin-right: 20px;
 }
 
 .footer-form .input-field::placeholder { color: inherit; }
@@ -780,8 +778,6 @@ body.nav-active { overflow: hidden; }
   width: 100%;
   justify-content: center;
   margin-block: 12px 28px;
-  float: right;
-  margin-right: -200px;
 }
 
 .footer-bottom {
