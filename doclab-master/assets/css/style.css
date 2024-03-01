@@ -1144,3 +1144,8 @@ body.nav-active { overflow: hidden; }
   .contact-item { margin-block-start: 0; }
 
 }
+.about-content{
+  top: auto;
+  grid-template-columns: max-content;
+  align-items: center;
+}
